@@ -9,7 +9,6 @@ const Content = () => {
     }
   }
 
-
   return (
     <div className="about-us">
       <div className="container">
@@ -29,6 +28,8 @@ const Content = () => {
           <li><a href="https://www.city.kyotanabe.lg.jp/0000014375.html" target="_blank" rel="noopener noreferrer">京田辺市文化振興ロゴマーク</a></li>
           <li><a href="https://www.photo-ac.com/main/detail/1453528" target="_blank" rel="noopener noreferrer">写真素材：同志社女子大学 京田辺キャンパス（photoAC Synapse様撮影）</a></li>
         </ul>
+
+        <p>京田辺マイマップは、 <a href="https://github.com/geoloniamaps/pwamap" target="_blank" rel="noopener noreferrer">Geolonia PWA マップ</a> を使用して作成しました。</p>
 
         {config.form_url?
           <>
