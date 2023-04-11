@@ -1,8 +1,8 @@
 {
   "title": "京田辺マイマップ",
-  "description": "京都府京田辺市近辺のスポットについて、個人的な紹介を添えた地図です。",
+  "description": "「京田辺マイマップ」は、京都府京田辺市近辺のスポットについて、個人的な紹介を添えた地図です。",
   "form_url": "",
-  "logo_image_url": "https://geoloniamaps.github.io/pwamap/icon-pwamap.svg",
+  "logo_image_url": "https://ucarecdn.com/71b8f50e-bb16-4eac-859e-da2342587072/",
   "background_image_url": "https://naogify.github.io/kyotanabe-my-map/background.jpg",
   "primary_color": "#2A7F4B",
   "orderby": "distance"
