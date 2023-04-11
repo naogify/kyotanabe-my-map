@@ -14,21 +14,21 @@ const Content = () => {
     <div className="about-us">
       <div className="container">
         <div className="branding">
-          <div className="image"><img src={`${process.env.PUBLIC_URL}/icon-pwamap.svg`} alt=""/></div>
-          <div className="logo">Geolonia PWAマップ</div>
+          <div className="image"><img src={`${process.env.PUBLIC_URL}/icon-256.png`} alt=""/></div>
+          <div className="logo">京田辺マイマップ</div>
         </div>
 
-        <p>Geolonia PWAマップは、Google スプレッドシートを更新するだけでオリジナルの地図アプリを作成することができます。</p>
-        <p>プログラムはオープンソースで公開しているため、自由にカスタマイズしてご利用いただけます。</p>
+        <p>京田辺マイマップは、管理人の<a href="https://twitter.com/naogify" target="_blank" rel="noopener noreferrer">naogify</a>が運営する地図サービスです。</p>
+        <p>京田辺近辺のスポットについて、管理人のコメントと共に紹介します。</p>
+        <p>基本的には、子連れで行けるスポットや、飲食店の紹介が多めになると思います。どうぞよろしくお願いします。</p>
+        <p>何かご連絡等あれば、Twitter に DM をお願いします。</p>
 
-        <h2> Geolonia PWAマップについて</h2>
-        <p><a href="https://blog.geolonia.com/2022/05/17/pwamap-beta.html" target='_blank' rel="noreferrer">https://blog.geolonia.com/2022/05/17/pwamap-beta.html</a></p>
-
-        <p>また、独自ドメインでの利用やデザインのカスタマイズや利用に必要な緯度・経度情報の提供も有償で別途承ります。ご希望の方は下記までお問い合わせください。</p>
-
-        <h2>お問い合わせフォーム</h2>
-        <p><a href="https://geolonia.com/contact/" target='_blank' rel="noreferrer">https://geolonia.com/contact/</a></p>
-        <p>※カスタマイズおよびアプリの作成・利用についてはサポート対象外となります。あらかじめご了承ください。</p>
+        <h2>使用素材</h2>
+        <p>このアプリでは、下記の素材を使用しています。</p>
+        <ul>
+          <li><a href="https://www.city.kyotanabe.lg.jp/0000014375.html" target="_blank" rel="noopener noreferrer">京田辺市文化振興ロゴマーク</a></li>
+          <li><a href="https://www.photo-ac.com/main/detail/1453528" target="_blank" rel="noopener noreferrer">写真素材：同志社女子大学 京田辺キャンパス（photoAC Synapse様撮影）</a></li>
+        </ul>
 
         {config.form_url?
           <>
